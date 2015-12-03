@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>lab2 q4</title>
+</head>
+<body>
+<form method ="post" action="send.php">
+<p><strong>What kind of car would you like to buy?</strong><br>
+  <input type ="radio" name "car" value = "proton" checked>Proton
+  <input type ="radio" name "car" value = "honda" >Honda
+  <input type ="radio" name "car" value = "ferrari" > Ferrari
+  <input type ="radio" name "car" value = "ford"> Ford
+  
+  </p>
+  
+ <p><strong>What colour do you want on your car?</strong><br>
+<select name="Colour">>
+		<option value ="white">White</option>
+		<option value ="red">Red</option>
+		<option value ="black" selected>Black</option>
+		<option value ="blue">Blue</option>
+	</select>
+	&nbsp &nbsp &nbsp &nbsp Other:<input type = "text" name = "other">
+	
+<p><strong>Enter other specification of your preferred car:</strong></p>
+
+<textarea name = "specification" row = "10" cols = "50"></textarea>
+
+<p><strong>Tell us how to get in touch with you:</strong></p>
+	<table border = 0>
+	<col width="50">
+	<col width="100">
+	<tr><td>Name</td><td><input type = "text" name = "name" size = 50></td></tr>
+	<tr><td>Email</td><td><input type = "text" name = "email" size = 50></td></tr>
+	<tr><td>Tel</td><td><input type = "text" name = "tel" size = 50></td></tr>
+	<tr><td>FAX</td><td><input type = "text" name = "fax" size = 50></td></tr>
+	</table>
+<p><input type="checkbox" name="contactmefast" value = "contactmefast">Please contact me as soon as possible regarding this metter</p>
+	<p><input type="submit" value="Enter"> &nbsp <input type="reset" value="Clear"></td></tr></p>
+</body>
+</html>
